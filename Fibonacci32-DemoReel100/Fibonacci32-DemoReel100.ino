@@ -76,7 +76,7 @@ void setup() {
   FastLED.setCorrection(TypicalSMD5050);
   // FastLED.setDither(0);
 
-  FastLED.setMaxPowerInVoltsAndMilliamps(5, 960); // 30mA each, times 32 LEDs
+  FastLED.setMaxPowerInVoltsAndMilliamps(5, 500);
 
   FastLED.setBrightness(brightnesses[brightnessIndex]);
 }
