@@ -14,8 +14,15 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+// Arduino Settings:
+// Tools -> Board -> Arduino AVR Boards -> Nano
+// Board: Arduino Nano
+// Processor: ATmega328P (Old Bootloader)
+// Programmer: USBtinyISP
+
 #include <FastLED.h>     // https://github.com/FastLED/FastLED
-#include <ClickButton.h> // https://github.com/marcobrianza/ClickButton
+
+#include "ClickButton.h" // https://github.com/marcobrianza/ClickButton
 
 FASTLED_USING_NAMESPACE
 
